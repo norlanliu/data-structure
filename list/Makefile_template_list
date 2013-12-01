@@ -1,0 +1,7 @@
+template_list_test : template_list_test.o
+	cc -o template_list_test template_list_test.o
+
+template_list_test.o : template_list.h
+
+clean :
+	rm template_list_test template_list_test.o

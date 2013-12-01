@@ -1,0 +1,11 @@
+hashmap_test : hashmap.o hashmap_test.o
+	cc -Wall -g -o hashmap_test hashmap.o hashmap_test.o
+
+hashmap.o : hashmap.h
+	cc -g -c hashmap.c
+
+hashmap_test.o : hashmap.h
+	cc -g -c hashmap_test.c
+
+clean:
+	rm hashmap_test hashmap.o hashmap_test.o
