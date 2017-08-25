@@ -1,3 +1,3 @@
 Data-Structure READEME
 
-This is the recorde for my study! cool.
+This is the recorde for my study!
