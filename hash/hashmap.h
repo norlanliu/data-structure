@@ -1,5 +1,6 @@
 #ifndef DATASTRACTURE_HASHMAP_H_
 #define DATASTRACTURE_HASHMAP_H_
+//hehe
 typedef struct _linked_list
 {
 	int hash;
